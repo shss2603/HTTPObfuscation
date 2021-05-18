@@ -6,7 +6,7 @@ Created on Mon Apr  5 05:39:16 2021
 """
 import json
 import tldextract
-f = open("roku_capture.json", encoding='utf-8')
+f = open("roku_capture.json", encoding='utf-8') #use json of traffic packets in place of roku_capture.json
 json_data = json.load(f)
 ad_f = open("entities.json", encoding='utf-8')
 json_data_ads = json.load(ad_f)
