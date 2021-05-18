@@ -6,9 +6,9 @@ Created on Mon Apr  5 05:39:16 2021
 """
 import json
 import tldextract
-f = open("C:\\Users\\shekh\\IOT\\sam_new.json", encoding='utf-8')
+f = open("roku_capture.json", encoding='utf-8')
 json_data = json.load(f)
-ad_f = open("C:\\Users\\shekh\\IOT\\disconnect-tracking-protection-master\\entities.json", encoding='utf-8')
+ad_f = open("entities.json", encoding='utf-8')
 json_data_ads = json.load(ad_f)
 dom_list = [each_string.lower() for each_string in json_data_ads['entities'].keys()]
 lst = 0
