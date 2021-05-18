@@ -3,6 +3,7 @@
 Created on Tue May  4 22:40:49 2021
 
 @author: shekh
+This file successfully edits the HTTP host parameter but is unable to edit the Query parameters 
 """
 
 from mitmproxy import http
