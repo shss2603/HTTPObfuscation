@@ -3,7 +3,8 @@
 Created on Mon Apr  5 05:39:16 2021
 
 @author: shekh
-This script extracts tracking domains from any packet capture using disconnect-tracking-protection's entities list of tracking domains
+This script extracts tracking domains from any packet capture(json) using disconnect-tracking-protection's entities list of tracking domains
+pcaps can be saved as json using Wireshark
 """
 import json
 import tldextract
