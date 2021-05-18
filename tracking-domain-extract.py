@@ -3,6 +3,7 @@
 Created on Mon Apr  5 05:39:16 2021
 
 @author: shekh
+This script extracts tracking domains from any packet capture using disconnect-tracking-protection's entities list of tracking domains
 """
 import json
 import tldextract
